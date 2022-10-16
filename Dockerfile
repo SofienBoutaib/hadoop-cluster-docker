@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER Lilia Sfaxi <liliasfaxi@gmail.com>
+MAINTAINER Sofien Boutaib <boutaibsofien@yahoo.fr>
 
 WORKDIR /root
 
