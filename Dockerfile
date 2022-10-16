@@ -4,7 +4,7 @@ MAINTAINER Sofien Boutaib <boutaibsofien@yahoo.fr>
 
 WORKDIR /root
 
-# install openssh-server, openjdk and wget
+# install openssh-server, openjdk and wget !!
 RUN apt-get update && apt-get install -y openssh-server openjdk-8-jdk wget vim
 
 # install hadoop 2.7.2
