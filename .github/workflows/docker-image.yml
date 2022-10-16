@@ -17,6 +17,6 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag  sofienboutaib/spark-hadoop:hv-2.7.2
     - name: Push the Docker image
-      run: docker login -u sofienboutaib -p ${{ secrets.DOCKER_TOKEN ]] && docker push sofienboutaib/spark-hadoop:hv-2.7.2
+      run: docker login -u sofienboutaib -p ${{ secrets.DOCKER_TOKEN }} && docker push sofienboutaib/spark-hadoop:hv-2.7.2
       
      
