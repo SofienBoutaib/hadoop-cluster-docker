@@ -14,10 +14,10 @@ RUN wget https://github.com/kiwenlau/compile-hadoop/releases/download/2.7.2/hado
     rm hadoop-2.7.2.tar.gz
 
 # install spark
-RUN wget https://dlcdn.apache.org/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz && \
-    tar -xvf spark-3.2.1-bin-hadoop3.2.tgz && \
-    mv spark-3.2.1-bin-hadoop3.2 spark && \
-    rm -rf spark-3.2.1-bin-hadoop3.2.tgz
+RUN https://dlcdn.apache.org/spark/spark-3.1.3/spark-3.1.3-bin-hadoop2.7.tgz && \
+    tar -xvf spark-3.1.3-bin-hadoop2.7.tgz   && \
+    mv spark-3.1.3-bin-hadoop2.7 /usr/local/spark && \
+    rm -rf spark-3.1.3-bin-hadoop2.7.tgz
 
 
 # install kafka
